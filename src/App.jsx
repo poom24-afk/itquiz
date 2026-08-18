@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import tataPortrait from './assets/Ta.png';
-import tataSound from './assets/pete.mp3';
+import tataSound from './assets/Pete.mp3';
 
 const LOGIN_USERNAME = 'Admin';
 const LOGIN_PASSWORD = '12345678';
