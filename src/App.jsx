@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import tataSound from './assets/Tata.mp3';
+import tataPortrait from './assets/Ta.png';
+import tataSound from './assets/pete.mp3';
 
 const LOGIN_USERNAME = 'Admin';
 const LOGIN_PASSWORD = '12345678';
@@ -98,7 +99,7 @@ function App() {
               ทำให้เขาเป็นตัวแทนแห่งความทุ่มเทและจิตวิญญาณของทีมอย่างแท้จริง
             </p>
             <img
-              src="/src/assets/Ta.png"
+              src={tataPortrait}
               alt="พี่เต วรการ"
               className="brand-portrait clickable-portrait"
               onClick={toggleCharacterAudio}
@@ -178,7 +179,7 @@ function App() {
           <div className="hero-visual">
             <div className="portrait-card">
               <img
-                src="/src/assets/Ta.png"
+                src={tataPortrait}
                 alt="พี่เต วรการ"
                 className="clickable-portrait"
                 onClick={toggleCharacterAudio}
